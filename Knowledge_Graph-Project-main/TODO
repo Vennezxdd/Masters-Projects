@@ -1,0 +1,15 @@
+Important Notes:
+1. GNN supervised model (e.g. R-GCN {Relational Graph Convolutional Network}) trained with our EDGES of known PPI (and also randomly generated UNKNOWN PPI)
+2. train (80%) | test (10%) | validation (10%)
+3. Main objetive: Predict PPI (EDGES) (Classification Task: positive/negative EDGE/LINK) {Label = 1 for known interaction, 0 for negative/no interaction}
+
+-------
+
+What we need to fix/do:
+- **Report** escrever
+- **Compare** results of using **different methodologies** of sampling negatives
+- Analyse **evaluation scores/metrics** used on our model
+- https://www.dgl.ai/dgl_docs/tutorials/blitz/4_link_predict.html READ (optional)
+- **GraphSage** tem em conta as edges desbalanceadas (bias) e faz undersampling -> INCLUIR NO REPORT PARA FUTURE STEPS
+- Explicar no relatório **como é que o modelo funciona** (usamos CNN, aumentamos e diminuimos, logits, etc)
+(DONE) - Early Stop mechanism (using validation set)
