@@ -1,5 +1,5 @@
 # Advanced Databases/Databases Technologies 2024/2025 Project
-# Phase 2
+# Phase 2 (Indexing and Optimization)
 
 Group 11
 
