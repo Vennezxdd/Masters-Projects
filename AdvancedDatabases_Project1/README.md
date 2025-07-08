@@ -1,5 +1,5 @@
 # Advanced Databases/Databases Technologies 2024/2025 Project
-# Phase 1
+# Phase 1 (Data Modelling and Querying)
 
 Group 11
 
